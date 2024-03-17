@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 0.5px;
+}
+
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(netflixbg.jpg);
+    background-position: center center;   /*fixes the background image at center*/
+    background-size: max(1200px, 100vw);   /*The one between 1200px and 100vh, which is greater there the coditions will be applied*/
+    background-repeat: no-repeat;  /* in order fix the background */
+    height: 86vh;
+    position: relative;
+}
+
+.main .box{
+    height: 86vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    border: 0px 0px 11px 0px;
+    border-color: white;
+}
+
+nav{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+nav img{
+    color: red;
+    width: 147px;
+    height: 40px;
+    position: relative;
+    z-index: 10; /*the logo pop out from the black box div hence becomes more bright*/
+}
+
+nav select{
+    height: 28px;
+    width: 115px;
+    background-color: transparent;
+    border: 1.3px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.05rem;
+    padding: 0px 10px 0px 20px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    background-color: red;
+    color: white;
+    height: 33px;
+    width: 76px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+    border: none;
+}
+.hero{
+    height: calc(100% - 110px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    gap: 26px;
+    padding: 0px 23px 30px 23px;
+}
+
+.separation{
+    height: 6.8px;
+    background-color: rgba(54, 53, 53, 0.704);
+    position: relative;
+    z-index: 10;
+}
+
+.hero input{
+    width: 375px;
+    height: 55.96px;
+    background-color: rgba(0, 0, 0, 0.297);
+    border: 0.5px solid rgba(226, 226, 226, 0.78);
+    border-radius: 3px;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    color: white;
+}
+.hero button{
+    width: 202px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    position: relative;
+    top: 2px;
+    margin-left: 6px;
+    border: none;
+}
+
+.hero button img{
+    position: relative;
+    top: 4px;
+}
+
+.first{
+    height: 508px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ftext{
+    color: white;
+    width: 585.33px;
+    height: 192.16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    left: 50px;
+}
+
+.ftext h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+}
+
+.ftext h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+
+.sec{
+        height: 508px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+}
